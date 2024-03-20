@@ -9,3 +9,4 @@ C:\Estudos\Udemy\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net8.0\CleanArchMvc.
 C:\Estudos\Udemy\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net8.0\refint\CleanArchMvc.Domain.dll
 C:\Estudos\Udemy\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net8.0\CleanArchMvc.Domain.pdb
 C:\Estudos\Udemy\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net8.0\ref\CleanArchMvc.Domain.dll
+C:\Estudos\Udemy\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net8.0\CleanArchMvc.Domain.sourcelink.json

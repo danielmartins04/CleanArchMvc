@@ -14,7 +14,7 @@ public sealed class Category : Entity
 
     private void ValidateDomain(string name)
     {
-        DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid name is required.");
+        DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Name is required");
 
         DomainExceptionValidation.When(name.Length < 3, "Invalid name, too short, minimum are 3 characters");
 
