@@ -7,16 +7,16 @@ namespace CleanArchMvc.Domain.Tests;
 public class CategoryUnitTest
 {
     [Fact(DisplayName = "Category with valid state")]
-    public void CreateCategory_WithValidaParameters_ShouldReturnValidState()
+    public void CreateCategory_WithValidParameters_ShouldReturnValidState()
     {
-        var category = () => new Category(1, "category x");
+        var category = () => new Category(1, "category name");
         category.Should().NotThrow<DomainExceptionValidation>();
     }
 
     [Fact(DisplayName = "Category with negative id value")]
     public void CreateCategory_WithNegativeIdValue_ShouldThrowDomainExceptionInvalidId()
     {
-        var category = () => new Category(-1, "category x");
+        var category = () => new Category(-1, "category name");
         category.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid Id value");
     }
 
