@@ -1,0 +1,25 @@
+# Arquivos de compilação
+bin/
+obj/
+
+# Arquivos gerados pela IDE (exemplo, Visual Studio)
+.vs/
+
+# Arquivos de dependências
+packages/
+
+# Arquivos de configuração pessoal que podem variar entre desenvolvedores
+*.user
+*.suo
+*.sln.docstates
+
+# Logs e arquivos temporários
+*.log
+*.cache
+
+# Arquivos de compilação gerados
+*.dll
+*.exe
+
+# Arquivos de backup
+*.bak
